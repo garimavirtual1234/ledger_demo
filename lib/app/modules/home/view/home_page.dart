@@ -182,7 +182,7 @@ class FinanceDashboard extends StatelessWidget {
                  ),
                  SizedBox(height: 16),
              SizedBox(
-               height: getSize(context).height*0.5,
+               height: getSize(context).height*0.4,
                child: ListView.builder(
                  shrinkWrap: true,
                  itemCount: 4,
