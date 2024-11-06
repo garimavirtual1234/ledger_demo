@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ledger_demo/app/utils/screen_size.dart';
 
 import '../../../utils/color_constant.dart';
 
@@ -21,6 +22,7 @@ class SummaryCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      //height: getSize(context).height*0.19,
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: Colors.white,
@@ -29,7 +31,7 @@ class SummaryCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(title, style:  TextStyle(fontSize: 16, color: kSubtitleTextColor)),
+          Text(title, style:  TextStyle(fontSize: 16, color: kSubtitleTextColor),),
          // const SizedBox(height: 8),
           Text(amount, style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
            SizedBox(height: 16),

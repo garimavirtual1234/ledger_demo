@@ -137,9 +137,9 @@ class FinanceDashboard extends StatelessWidget {
                    children: [
                      Expanded(
                        child: SummaryCard(
-                         title: 'Total Income',
+                         title: AppConstants.totalIncome,
                          amount: '£ 38 576,90',
-                         buttonText: 'New Income',
+                         buttonText: AppConstants.newIncome,
                          buttonColor: Colors.green,
                          onPressed: () {},
                        ),
@@ -147,9 +147,9 @@ class FinanceDashboard extends StatelessWidget {
                      const SizedBox(width: 16),
                      Expanded(
                        child: SummaryCard(
-                         title: 'Total Expense',
+                         title: AppConstants.totalExpense,
                          amount: '£ 38 576,90',
-                         buttonText: 'New Expense',
+                         buttonText: AppConstants.newExpense,
                          buttonColor: Colors.green,
                          onPressed: () {},
                        ),
@@ -225,7 +225,7 @@ required this.status
   Widget build(BuildContext context) {
     return
       Container(
-          margin: EdgeInsets.only(bottom: 16),
+          margin: EdgeInsets.only(bottom: 8),
           padding: EdgeInsets.all(16),
           decoration: BoxDecoration(
             color: Colors.white,

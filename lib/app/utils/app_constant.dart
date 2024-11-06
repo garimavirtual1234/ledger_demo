@@ -19,6 +19,7 @@ class AppConstants{
   static const totalIncome = "Total Income";
   static const totalExpense = "Total Expense";
   static const newIncome = "New Income";
+  static const newExpense = "New Expense";
   static const credits = "Credits";
   static const currency = "£";
   static const seeAll = "See All";
