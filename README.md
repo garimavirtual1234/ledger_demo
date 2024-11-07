@@ -23,3 +23,7 @@ Additional Functionalities
 * See All Button: Located in the "Actions" section, allowing users to view a more comprehensive list of financial actions.
   
 This app interface is designed with a user-friendly layout and a modern color scheme for clear visibility and ease of use.
+
+![Screenshot_1730976279](https://github.com/user-attachments/assets/8c57e8bb-7e93-461b-b258-53b68240e0de)
+
+![Screenshot_1730976584](https://github.com/user-attachments/assets/b9e61497-38e5-408a-a1f7-46ce005c9ccf)
