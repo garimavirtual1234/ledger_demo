@@ -24,9 +24,9 @@ Additional Functionalities
   
 This app interface is designed with a user-friendly layout and a modern color scheme for clear visibility and ease of use.
 
+<p align="middle">
 <img src="https://github.com/user-attachments/assets/8c57e8bb-7e93-461b-b258-53b68240e0de" alt="Alt Text" width="300" height="600">
-
-
-<img src="https://github.com/user-attachments/assets/b9e61497-38e5-408a-a1f7-46ce005c9ccf" alt="Alt Text" width="400" height="800">
-
+   &nbsp;&nbsp;&nbsp;
+<img src="https://github.com/user-attachments/assets/b9e61497-38e5-408a-a1f7-46ce005c9ccf" alt="Alt Text" width="500" height="1000">
+</p>
 
