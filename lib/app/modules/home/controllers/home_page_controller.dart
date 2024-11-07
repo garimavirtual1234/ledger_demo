@@ -1,7 +1,7 @@
 
 import 'package:get/get.dart';
 
-//This class is used by HomePageController to manage veriable and events.
+//This class is used by FinanceDashboard to manage variable and events.
 class HomePageController extends GetxController{
 
   // Initially selecting "Month"
