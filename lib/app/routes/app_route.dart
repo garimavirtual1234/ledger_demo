@@ -6,6 +6,7 @@ import '../modules/home/view/home_page.dart';
 import '../modules/home/view/landing_view.dart';
 import '../modules/splash/view/splash_screen.dart';
 
+// A central class to define all application routes and their associated screens.
 class AppRoute {
   static String splashScreen = "/splash";
   static String welcomeScreen = "/welcome";

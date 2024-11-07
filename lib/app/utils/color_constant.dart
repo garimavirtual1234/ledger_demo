@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+// Define primary colors and theme settings for the application.
+// Colors are centralized to maintain a consistent color scheme across the app.
+
 Color? kPrimaryColor = const Color(0xFF00B050);
 Color? kSecondaryColor = const Color(0xFFFFFFFF);
 Color? kBgColor = const Color(0xFFEEEEEE);

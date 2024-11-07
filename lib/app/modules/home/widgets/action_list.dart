@@ -5,6 +5,7 @@ import '../../../../widgets/common_text.dart';
 import '../../../utils/color_constant.dart';
 import '../../../utils/image_constant.dart';
 
+// A custom widget to display a single item in a list of actions on the home page.
 class ActionList extends StatelessWidget {
   final String actionName;
   final String actionDate;

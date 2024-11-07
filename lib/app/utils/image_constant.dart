@@ -1,4 +1,7 @@
 
+
+// Asset paths used for images and icons across the application.
+
 //app icon image
 const String appIconImage = "asset/images/app_icon.png";
 

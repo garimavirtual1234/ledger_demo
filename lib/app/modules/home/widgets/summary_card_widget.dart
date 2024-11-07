@@ -4,7 +4,7 @@ import 'package:ledger_demo/widgets/common_text.dart';
 
 import '../../../utils/color_constant.dart';
 
-
+// A reusable widget that displays a summary card with a title, an amount, and a button on the home page
 class SummaryCard extends StatelessWidget {
   final String title;
   final String amount;

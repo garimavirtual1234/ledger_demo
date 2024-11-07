@@ -8,7 +8,10 @@ import '../../../utils/screen_size.dart';
 import '../controllers/home_page_controller.dart';
 
 
-//
+// A custom toggle button widget for switching between "Month" and "Year" views on the homepage.
+// This widget uses GetX's reactive state management to update the selected
+// button (either "Month" or "Year") in real-time. It changes the appearance of
+// each button based on the user's selection, with a distinct color for the active button.
 class ToggleButton extends GetView<HomePageController> {
   const ToggleButton({super.key});
 

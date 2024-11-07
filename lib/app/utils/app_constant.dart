@@ -1,3 +1,5 @@
+
+// A class to store all constant strings used throughout the application.
 class AppConstants{
 
   //Change here for App title

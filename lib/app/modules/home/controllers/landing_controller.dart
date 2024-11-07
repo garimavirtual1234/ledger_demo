@@ -3,6 +3,8 @@ import 'package:get/get.dart';
 
 import '../view/home_page.dart';
 
+//This class is used by LandingPageController to manage veriable and events.
+
 class LandingPageController extends GetxController {
   // Initially selecting bottom tab "Home"
   RxInt tabIndex = 0.obs;

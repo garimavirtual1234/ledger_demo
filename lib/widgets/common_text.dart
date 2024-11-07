@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
+//CustomizedTextWidget is a reusable widget that allows consistent and customizable text styling throughout the application.
 class CustomizedTextWidget extends StatelessWidget {
   const CustomizedTextWidget({
     super.key,
