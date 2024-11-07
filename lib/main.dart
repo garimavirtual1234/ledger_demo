@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:get/get_navigation/src/routes/transitions_type.dart';
 
@@ -8,8 +9,13 @@ import 'app/routes/app_route.dart';
 import 'app/utils/app_constant.dart';
 import 'app/utils/color_constant.dart';
 
+// first function that will be called when app starts
 void main() {
-  //this function
+
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+      statusBarColor: kPrimaryColor
+  ));
+
   runApp(const MyApp());
 }
 
@@ -17,7 +23,6 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   // This widget is the root of your application.
-
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(

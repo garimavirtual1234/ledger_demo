@@ -23,6 +23,7 @@ class AppConstants{
   static const credits = "Credits";
   static const currency = "£";
   static const seeAll = "See All";
+  static const actions = "Actions";
 
 
 

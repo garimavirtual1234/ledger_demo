@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ledger_demo/app/utils/screen_size.dart';
+import 'package:ledger_demo/widgets/common_text.dart';
 
 import '../../../utils/color_constant.dart';
 
@@ -11,7 +12,7 @@ class SummaryCard extends StatelessWidget {
   final Color buttonColor;
   final VoidCallback onPressed;
 
-  const SummaryCard({
+  const SummaryCard({super.key,
     required this.title,
     required this.amount,
     required this.buttonText,
@@ -34,13 +35,13 @@ class SummaryCard extends StatelessWidget {
           Text(title, style:  TextStyle(fontSize: 16, color: kSubtitleTextColor),),
          // const SizedBox(height: 8),
           Text(amount, style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
-           SizedBox(height: 16),
+           const SizedBox(height: 16),
           Align(
             alignment: Alignment.centerRight,
             child: ElevatedButton.icon(
               onPressed: onPressed,
               icon: const Icon(Icons.add),
-              label: Text(buttonText),
+              label: CustomizedTextWidget(textValue: buttonText),
               style: ElevatedButton.styleFrom(
                 backgroundColor: kPrimaryColor,
                 foregroundColor: kSecondaryColor,

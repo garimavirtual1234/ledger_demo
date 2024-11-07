@@ -6,7 +6,9 @@ import '../../../utils/color_constant.dart';
 import '../../../utils/image_constant.dart';
 import '../controllers/landing_controller.dart';
 
-
+// The main landing screen of the app.
+// It serves as a central hub or entry point, displaying options and navigation
+// to different sections of the app.
 class LandingView extends GetView<LandingPageController> {
   const LandingView({super.key});
 

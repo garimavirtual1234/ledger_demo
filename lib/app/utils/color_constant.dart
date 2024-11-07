@@ -14,25 +14,6 @@ Color kOutGoingBgColor = const Color(0xFFD7EFA3);
 Color kDarkGreenColor = const Color(0xFF207352);
 
 
-Color? kTealColor = const Color(0XFF28B59D);
-Color? kOrangeAccentColor = const Color(0xFFFFD0B3);
-
-Color? kTextColorRed = const Color(0xFFF4517E);
-Color buttonFirstColor =  const Color(0xFFEF3B85);
-Color welcomeButtonColor =  const Color(0xFF747373);
-Color buttonSecondColor =  const Color(0xFFF01828);
-Color transparentColor =  const Color(0xFFFFFFFF);
-
-Color gradientColorOne =  const Color(0xFFC7D4F9);
-Color gradientColorTwo =  const Color(0xFFC9D3EC);
-Color gradientColorThree =  const Color(0xFFE8EBF4);
-Color gradientColorFour =  const Color(0xFFF4C8D7);
-Color gradientColorFive =  const Color(0xFFFFF5EB);
-Color badgeTextLevelColour =  const Color(0xFFF11B30);
-Color imageCardBackgroundColor =  const Color(0xFFE80663);
-Color dividerColor =  const Color(0xFFD9D9D9);
-Color blackTextColor =  const Color(0xFF212529);
-Color notificationTextColor =  const Color(0xFF343434);
 
 ThemeData themeData() {
   return ThemeData(
